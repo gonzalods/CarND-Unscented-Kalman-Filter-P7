@@ -9,4 +9,4 @@ set(CMAKE_CXX_FLAGS "${CXX_FLAGS}")
 
 set(sources src/test.cpp src/tools.cpp src/ukf.cpp)
 
-add_executable(TestUKF ${sources})
+add_executable(UnscentedKF ${sources})
